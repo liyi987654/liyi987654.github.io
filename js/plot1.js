@@ -46,7 +46,7 @@ var tooltipMine = d3.select("body")
                 .attr("class", "tooltipMine");
 
 
-d3.csv("/finalProjectTest1/data/plot1.csv",function(data){
+d3.csv("plot1.csv",function(data){
   console.log(data);
   // var dataset = d3.nest()
   //                 .key(function(d){
