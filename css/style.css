@@ -9,7 +9,7 @@
 body {
     font-family: 'Varela Round', sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 2.0;
     overflow-x: hidden;
     color: #868F9B;
 }
@@ -260,7 +260,20 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         display: block !important;
     }
 }
+p span{
 
+color: rgb(103, 20, 34);
+font-weight: bold;
+}
+.marker{
+  width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+font-size: 32px;
+font-weight: bold;
+  color: rgb(103, 20, 34);
+}
 
 
 /*------------------------------------*\
@@ -270,7 +283,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 header {
     position: relative;
 }
-
+#slidedown{
+  cursor: pointer;
+}
 #home {
     height: 100vh;
 }
@@ -288,14 +303,17 @@ header {
 
 .home-content h1 {
   text-transform: uppercase;
+  margin-bottom: 150px;
+
 }
-.home-content button {
+.home-content i {
   margin-top: 20px;
 }
 
-.header-wrapper h2 {
+.home-wrapper h2 {
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 150px;
 }
 
 .header-wrapper .breadcrumb {
